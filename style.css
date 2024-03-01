@@ -1,0 +1,158 @@
+/*There are three ways to define color in CSS: <1> color name; <2> hex value(#000000 to #ffffff); <3> Rgb value{(0,0,0)to(255,255,255)}*/
+body{
+    /* background-color:rgb(217, 241, 240); */
+    background-color: aliceblue;
+
+}
+nav{
+    /* letter-spacing: 1px; */
+    word-spacing: 10px;
+    /* font-family: Arial, Helvetica, sans-serif;; */
+}
+#nav_about_us{
+    word-spacing: normal;
+}
+#home:hover{
+    background-color: #ccc;
+}
+h1{
+    text-align: center;
+    color: red;
+    border-bottom: 3px solid green;
+    word-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    /* position: fixed; */
+}
+p{
+    line-height: 20px;
+    /* font-weight: 900; */
+}
+div.form{
+    border: 4px solid pink;
+    outline: 2px solid indigo;
+    background-color: rgb(237, 237, 195);
+    font-size: larger;
+    color: black;
+    padding: 5%;
+    margin-top: 6%;
+}
+h4.my_achievement{
+    text-align: center;
+    color: blue;
+}
+.my_achievement:hover{
+    color:darkblue;
+    text-decoration: underline;
+    /* font-size: 20px; */
+}
+#article_1{
+    background-color: lightpink;
+    border: 3px solid blue;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#article_2{
+    background-color: lightyellow;
+    border: 5px double red;
+    padding:0% 2% 2% 2%;
+    font-family: cursive;
+}
+#article_3{
+    background-color: lawngreen;
+    border: 3px dashed red;
+    outline: 3px solid green;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-variant: small-caps;
+
+}
+#my_facebook_account{
+    font-size: 50px;
+    padding-left: 1%;
+    color: rgb(5, 100, 200);
+}
+#my_youtube_account{
+    font-size: 50px;
+    padding-left: 2%;
+    color: red;
+}
+#my_linkedin_account{
+    font-size: 50px;
+    padding-left: 2%;
+    color:rgb(10, 100, 200);
+}
+.form_heading{
+    text-align: center;
+    color:red;
+}
+#f_name{
+    /* direction: rtl; */
+}
+.my_socialmedia:hover{
+    font-size: larger       ;
+    font-weight: 900;
+    text-decoration: underline;
+    color: red ;
+}
+label{
+    
+    margin: 2px;
+}
+input{
+    border: 2px solid pink;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+[type="text"]{
+    border: 3px solid red;
+}
+[type="email"]{
+    border: 3px solid green;
+}
+button{
+    border:2px solid pink;
+    background-color: lawngreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 1px;
+}
+.button:active{
+    background-color: yellow;
+}
+footer{
+    border:2px solid grey;
+    padding: 2px 0px 0px 25px;
+}
+#my_video_01{
+    border: 3px solid red;
+    float:left;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor:default;
+}
+#my_image_01{
+    margin-top: 20px;
+    margin-right: 10px;
+    float:left;
+}
+thead > tr{
+    font-size: 18px;
+    margin: 20px;
+    background-color: orange;
+}
+tbody > tr{
+    /* background-color: aliceblue; */
+    background-color:rgb(217, 241, 240);
+}
+tbody > tr > td > ul >li{
+    padding: 3px;
+}
+li:hover{
+    background-color: #bbb;
+}
